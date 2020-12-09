@@ -1,0 +1,90 @@
+{
+  "actions": [
+    {
+      "actionname": "plus count",
+      "actionIndex": 1,
+      "feature_retrieve":{
+        "counter": [
+        ]
+      },
+      "save_counter": {
+        "counter": [
+          {"countname":"counum" },
+          {"countname":"couhash"},
+          {"countname":"coulog"},
+          {"countname":"couSet"}
+        ]
+      }
+    },
+
+
+    {
+      "actionname": "read count",
+      "actionIndex": 2,
+      "feature_retrieve": {
+        "counter": [
+          {"countname":"counum" }
+        ]
+      },
+      "save_counter": {
+        "counter": [
+        ]
+      }
+    },
+
+    {
+      "actionname": "read freq",
+      "actionIndex": 3,
+      "feature_retrieve": {
+        "counter": [
+          {"countname":"couhash" }
+        ]
+      },
+      "save_counter": {
+        "counter": [
+        ]
+      }
+    },
+
+    {
+      "actionname": "read log",
+      "actionIndex": 4,
+      "feature_retrieve": {
+        "counter": [
+          {"countname":"coulog" }
+        ]
+      },
+      "save_counter": {
+        "counter": [
+        ]
+      }
+    },
+    {
+      "actionname": "read STR",
+      "actionIndex": 5,
+      "feature_retrieve": {
+        "counter": [
+          {"countname":"str" }
+        ]
+      },
+      "save_counter": {
+        "counter": [
+        ]
+      }
+    },
+
+    {
+      "actionname": "read Set",
+      "actionIndex": 6,
+      "feature_retrieve": {
+        "counter": [
+          {"countname":"couSet" }
+        ]
+      },
+      "save_counter": {
+        "counter": [
+        ]
+      }
+    }
+  ]
+}
